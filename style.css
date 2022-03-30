@@ -1,0 +1,45 @@
+body {
+  background-color:azure;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  color: black;
+
+}
+
+
+
+img{
+
+   display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+   height: 60px;
+   width: 60px;
+
+
+}
+
+
+.grid-container {
+    margin-top: 48px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 70px;
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #2196F3;
+  
+}
+
+.grid-item {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
